@@ -1,12 +1,9 @@
 var express = require('express');
 var app = express();
 
-// set the view engine to ejs
 app.set('view engine', 'ejs');
 
-// use res.render to load up an ejs view file
 
-// index page
 app.get('/', function(req, res) {
   var mascots = [
     { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012},
@@ -21,7 +18,6 @@ app.get('/', function(req, res) {
   });
 });
 
-// about page
 app.get('/about', function(req, res) {
   res.render('pages/about');
 });
