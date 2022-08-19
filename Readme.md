@@ -11,4 +11,11 @@ Creating EJS partials (eg head.ejs, header.ejs and footer.ejs)
 
 Adding these partials to views
 
-Passing 
+Passing Data to Views and Partials
+Rendering a Single Variable in EJS
+
+Looping Over Data in EJS
+And Passing Data to a Partial in EJS
+
+
+EJS lets you build applications when you do not require additional complexity. By using partials and having the ability to easily pass variables to your views, you can build some great applications quickly.
